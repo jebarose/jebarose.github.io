@@ -1,0 +1,448 @@
+/*
+
+#0D0D0D - Footer
+
+#262624 - Nav Hover
+
+
+*/
+
+/**********************************GOOGLE FONTS******************************************/
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Roboto+Slab&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+/**********************************FONTS *********************************************/
+
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+p {
+    font-family: 'Times New Roman', serif;
+}
+
+
+h3 {
+    font-family: 'Roboto Slab', serif;
+}
+
+img:hover {
+
+    opacity: 0.7;
+
+}
+
+/**********************************LAYOUT***************************************************/
+
+#container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.col13 {
+    width: 29.33%;
+}
+
+.col23 {
+    width: 62.66%;
+}
+
+.col33 {
+    width: 96%;
+}
+
+.col12 {
+    width: 46%;
+}
+
+.col14 {
+    width: 21%;
+}
+
+.col34 {
+    width: 71%;
+}
+
+.col15 {
+    width: 16%;
+}
+
+.col16 {
+    width: 12.66%;
+}
+
+.col56 {
+    width: 79.33%;
+}
+
+
+/*
+.responsive {
+    width: 100%;
+    height: auto;
+}
+*/
+
+.center {
+    text-align: center;
+}
+
+.current {
+    text-decoration: underline;
+    padding: 17px 20px;
+}
+
+.fl {
+
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+
+.col13,
+.col23,
+.col33,
+.col12,
+.col14,
+.col34,
+.col15,
+.col16,
+.col56 {
+    margin: 1%;
+    padding: 1%;
+}
+
+/**********************************HEADER*********************************************/
+
+
+#mainHeader {
+    background: url("../images/background.jpg");
+    height: 500px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+}
+
+h1,
+h2 {
+    font-family: 'Raleway', serif;
+    color: #FFFFFF;
+}
+
+h1 {
+
+    padding: 180px 20px 20px 80px;
+    font-size: 3.5em;
+}
+
+h2 {
+    padding: 20px 20px 20px 80px;
+}
+
+/*******************************NAVIGATION************************************/
+
+#mainNav {}
+
+a {
+    text-decoration: none;
+
+}
+
+.menu li {
+    display: inline;
+    padding: 5px 30px;
+}
+
+.menu li a {
+    color: #FFFFFF;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+
+#mainNav a:hover {
+    color: #D3D3D3;
+}
+
+
+/**********************************ABOUT**************************************/
+
+h3 {
+    color: #000000;
+    padding: 80px 10px 20px 10px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+#about p {
+    color: #000000;
+    line-height: 30px;
+    font-size: 1.2em;
+}
+
+/******* FONT AWESOME STYLING***********/
+
+.fa-linkedin {
+    color: #0077B5;
+    padding: 20px;
+}
+
+
+#about i {
+    font-size: 2.5em;
+}
+
+
+.fa-envelope {
+    color: #ffffff;
+/*    padding: 20px;*/
+}
+
+#contact i {
+    font-size: 2.5em;
+}
+/**********************************SERVICES************************************/
+
+#services {
+    background-color: #f2f2f2;
+}
+
+#services p {
+    color: #000000;
+    line-height: 30px;
+    font-size: 1.2em;
+}
+
+#services h4 {
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+/**********************************WORKS**************************************/
+
+#works{
+    margin-bottom: 50px;
+}
+/* #works img {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    float: left;
+}
+ */
+
+
+ #works img {
+    width: 100%;
+    height: auto;
+    padding: 10px 10px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.content{
+    background-color:#f2f2f2;
+    padding-bottom: 40px;
+}
+
+#works h4{
+    padding:20px 10px;
+}
+
+.content button{
+    padding: 10px 30px 10px 30px;
+    box-shadow: 5px 5px #093842;
+}
+
+/**********************************CONTACT**************************************/
+
+#contact {
+    background-color: #0D0D0D;
+}
+
+#contact h3,
+p {
+    color: #FFFFFF;
+}
+
+#contact p {
+    line-height: 30px;
+    font-size: 1.2em;
+}
+
+
+/**********************************FOOTER**************************************/
+
+
+#mainFooter {
+    background-color: #0D0D0D;
+}
+
+
+#mainFooter p {
+    color: #FFFFFF;
+    font-size: 0.9em;
+}
+
+
+/*************************SLICK NAV CSS OVERRIDE**************************/
+.slicknav_menu {
+    display: none;
+}
+
+
+@media screen and (min-width:481px) and (max-width:768px) {
+
+    /* #menu is the original menu */
+    #menu,
+    #mainNav {
+        display: none;
+    }
+
+    .slicknav_menu {
+        display: block;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+
+    /* #menu is the original menu */
+    #menu,
+    #mainNav {
+        display: none;
+    }
+
+    .slicknav_menu {
+        display: block;
+    }
+}
+
+
+
+
+/**********************************EASY FILTER***********************************
+
+button {
+    padding: 10px 30px 10px 30px;
+    box-shadow: 5px 5px #093842;
+}
+
+***/
+
+/**********************************RESPONSIVE**************************************/
+
+
+/*PHONE*/
+@media screen and (max-width:480px) {
+
+    .col13,
+    .col23,
+    .col33,
+    .col12,
+    .col14,
+    .col34,
+    .col15,
+    .col16,
+    .col56 {
+        width: 96%;
+        display: block;
+        margin: 0;
+        float: none !important;
+    }
+
+    p {
+        font-size: 1em;
+        line-height: 120%;
+    }
+
+    h1 {
+        font-size: 1.3em;
+    }
+
+    h2 {
+        font-size: 1.1em;
+    }
+
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+
+    #mainFooter {
+        padding: 20px;
+    }
+
+    button {
+        padding: 10px 20px 10px 20px;
+        box-shadow: 2px 2px #093842;
+        margin-bottom: 5px;
+    }
+
+    #works img {
+        width: 90%;
+        height: auto;
+        padding: 20px;
+        float: left;
+    }
+
+}
+
+
+
+/*  TABLET      */
+@media screen and (min-width:481px) and (max-width:960px) {
+
+    .col13,
+    .col23,
+    .col33,
+    .col12,
+    .col14,
+    .col34,
+    .col15,
+    .col16,
+    .col56 {
+        width: 96%;
+        display: block;
+        margin: 0;
+        float: none !important;
+    }
+
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+
+
+    p {
+        font-size: 1em;
+        line-height: 120%;
+    }
+    
+    button {
+        padding: 10px 20px 10px 20px;
+        box-shadow: 2px 2px #093842;
+        margin-bottom: 5px;
+    }
+
+    #works img {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        float: left;
+    }
+
+}
