@@ -1,3 +1,4 @@
+
 $(function () {
 
     //slicknav
@@ -11,6 +12,5 @@ $(function () {
         // duration of the animation
         duration: 400
     });
-
 
 });

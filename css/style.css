@@ -90,8 +90,8 @@ img:hover {
 }
 
 .current {
-    text-decoration: underline;
-    padding: 17px 20px;
+    text-decoration:underline;
+/*    padding: 17px 20px;*/
 }
 
 .fl {
@@ -147,7 +147,11 @@ h2 {
 
 /*******************************NAVIGATION************************************/
 
-#mainNav {}
+#mainNav {
+    background-color: #0D0D0D;
+    position: fixed;
+    width: 100%;
+}
 
 a {
     text-decoration: none;
@@ -160,11 +164,11 @@ a {
 }
 
 .menu li a {
-    color: #FFFFFF;
+    color: #ffffff;
+
     font-size: 1.2em;
     text-transform: uppercase;
 }
-
 
 #mainNav a:hover {
     color: #D3D3D3;
@@ -201,12 +205,13 @@ h3 {
 
 .fa-envelope {
     color: #ffffff;
-/*    padding: 20px;*/
+    /*    padding: 20px;*/
 }
 
 #contact i {
     font-size: 2.5em;
 }
+
 /**********************************SERVICES************************************/
 
 #services {
@@ -226,9 +231,10 @@ h3 {
 
 /**********************************WORKS**************************************/
 
-#works{
+#works {
     margin-bottom: 50px;
 }
+
 /* #works img {
     width: 100%;
     height: auto;
@@ -238,7 +244,7 @@ h3 {
  */
 
 
- #works img {
+#works img {
     width: 100%;
     height: auto;
     padding: 10px 10px;
@@ -246,16 +252,16 @@ h3 {
     box-sizing: border-box;
 }
 
-.content{
-    background-color:#f2f2f2;
+.content {
+    background-color: #f2f2f2;
     padding-bottom: 40px;
 }
 
-#works h4{
-    padding:20px 10px;
+#works h4 {
+    padding: 20px 10px;
 }
 
-.content button{
+.content button {
     padding: 10px 30px 10px 30px;
     box-shadow: 5px 5px #093842;
 }
@@ -264,6 +270,7 @@ h3 {
 
 #contact {
     background-color: #0D0D0D;
+    padding-bottom: 60px;
 }
 
 #contact h3,
@@ -276,6 +283,10 @@ p {
     font-size: 1.2em;
 }
 
+.con p{
+     line-height: 80px!important;
+    font-size: 4em!important;
+}
 
 /**********************************FOOTER**************************************/
 
@@ -431,7 +442,7 @@ button {
         font-size: 1em;
         line-height: 120%;
     }
-    
+
     button {
         padding: 10px 20px 10px 20px;
         box-shadow: 2px 2px #093842;
